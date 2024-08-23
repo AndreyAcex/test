@@ -1,0 +1,437 @@
+#preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Цвет фона */
+  z-index: 9999;
+}
+
+#preloader .logo img {
+  max-width: 80%;
+  height: auto;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 5s ease;
+}
+
+#content {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  background-color: #f9fbff;
+  padding: 0px 50px 0 50px;
+  color: #415167;
+}
+.left-side-header,
+.right-side-header {
+  padding: 70px 100px 0 100px;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side-header {
+  background-color: #415167;
+}
+
+.background-header {
+  background-image: url(/images/30072807_909538065884146_2710474531215143694_o.png);
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.title-info-coffee-left {
+  font-size: 55px;
+  font-weight: 900;
+  color: #415167;
+  top: 600px;
+
+  position: absolute;
+}
+
+.rainbow-span-title-left {
+  background-color: #c7a17a;
+  color: #fff;
+}
+
+.nav-title-text-right-header {
+  color: white;
+  padding-top: 130px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.links-right-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 15px;
+}
+.parag-nav-link-right {
+  font-size: 16px;
+  font-weight: 300;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.section1-container,
+.section2-container,
+.section3-container,
+.section4-container {
+  padding-top: 150px;
+}
+.txt-area-section1 {
+  text-align: center;
+}
+.title-of-section1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.title-text-info-section1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.cards-container-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.card1-section1 {
+  max-width: 226px;
+  text-align: center;
+}
+.name-of-card1-section1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 40px 0px 12px 0;
+}
+
+.paragraphs-card1-section1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.background-part-left-section2 {
+  background-color: #415167;
+  height: 894px;
+  width: 100%;
+  max-width: 384px;
+  position: absolute;
+}
+
+.txt-area-section2,
+.txt-area-section3,
+.txt-area-section4 {
+  text-align: center;
+  padding-top: 90px;
+}
+.card1-flex-container-section2 {
+  background-color: #fff;
+  max-width: 480px;
+  display: flex;
+}
+
+.card1-section2 {
+  position: relative;
+}
+.numberItem-card1-section2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #c7a17a;
+}
+.titleNameItem-card1-section2 {
+  font-size: 23px;
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+.areaInfo-card1-section2 {
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+.buttonAndText-section2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 16px;
+}
+.btnDanger-card1 {
+  background-color: #c7a17a;
+  width: 100%;
+  max-width: 134px;
+  height: 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+}
+.btnText-card1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.txt-part-card1-section2 {
+  padding: 38px;
+}
+
+.rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 65px 0 0 120px;
+}
+
+.card-row {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.card1-section2 {
+  min-width: 200px;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.section3-container {
+  background-color: #edf0f5;
+}
+.background-section3 {
+  background-color: #fff;
+  position: absolute;
+  right: 1px;
+  width: 100%;
+  max-width: 384px;
+  height: 1100px;
+}
+.infoBlock-container-section3 {
+  background-color: #fff;
+}
+.infoBlock-infoLocationCoffee-section3 {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.infoBlock-baseContainer-section3 {
+  padding: 80px 130px 0 130px;
+  position: relative;
+  max-width: 1000px;
+}
+.infoBlock-container-section3 {
+  display: flex;
+  align-items: center;
+}
+.infoBlock-numberItem-section3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #c7a17a;
+  padding: 64px 0 12px 0;
+}
+.infoBlock-titleTxt-section3 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+.infoBlock-paragaphTxt-section3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.infoBlock-txtArea-section3 {
+  padding-right: 64px;
+  max-width: 450px;
+}
+.infoBlock-txtSmall-section3 {
+  display: flex;
+}
+.buttonAndText-section3 {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  padding-top: 46px;
+}
+.infoBlock-imageArea-section3 {
+  position: relative;
+  right: 90px;
+}
+
+.control:hover {
+  background: #555;
+  color: white;
+}
+
+.control.active {
+  background: white;
+  color: #415167;
+  border-left: 4px solid #415167;
+}
+
+.content {
+  flex: 1;
+  display: none;
+  padding: 20px;
+  color: white;
+  height: 100vh;
+}
+
+.infoBlock-baseContainer-section3 {
+  display: flex;
+}
+
+.infoBlock-container-section3 {
+  flex: 1;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  background: white;
+}
+
+.control {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #415167;
+  height: 136px;
+  background: #edf0f5;
+  align-items: center;
+  display: flex;
+  width: 88px;
+  font-size: 30px;
+  font-weight: 900;
+  justify-content: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.background-section4 {
+  background-color: #415167;
+  width: 100%;
+  max-width: 384px;
+  height: 900px;
+  position: absolute;
+  right: 1px;
+}
+.cardItemProduct1 {
+  background-color: #fff;
+  max-width: 360px;
+}
+.areaPriceProductCard1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 0 9px 0;
+}
+.priceProductNow {
+  color: #c7a17a;
+  font-size: 20px;
+  font-weight: 600;
+}
+.priceProductWas {
+  font-size: 14px;
+  color: #415167;
+}
+.titleNameProductCard1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.paragInfoProductCard1 {
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 32px;
+  max-width: 150px;
+}
+.divPaddingCard1 {
+  padding: 42px;
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 64px;
+  left: 140px;
+}
+
+.scroll-container {
+  flex: 1;
+  overflow-x: auto; /* Разрешает горизонтальный скролл */
+
+  scroll-behavior: smooth; /* Плавный скролл */
+  padding: 0 10px;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 10px;
+}
+
+.cardItemProduct1 {
+  background: #ffffff;
+
+  border-radius: 8px;
+  display: flex;
+
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+
+  flex-direction: column;
+}
+
+.scroll-button {
+  background: #c7a17a;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
+.footer-container {
+  background-color: #edf0f5;
+}
+.footerTxt {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+.footer-container {
+  padding-top: 150px;
+}
